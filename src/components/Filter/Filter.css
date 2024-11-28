@@ -11,6 +11,7 @@
   margin-top: 50px;
   margin-bottom: 150px;
 }
+
 .filterDiv {
   width: 100%;
   padding: 150px 20px 20px 20px;
@@ -39,6 +40,7 @@
   padding: 2px 2px 2px 2px;
   border-radius: 20px;
 }
+
 .diamondFilterWrappedDiv {
   width: 100%;
   height: 100%;
@@ -50,6 +52,7 @@
   font-size: 17px;
   border-radius: 20px;
 }
+
 .diamondFilterWrappedDiv:hover {
   cursor: pointer;
   background-image: linear-gradient(to right, #f606f9, #3ebadf);
@@ -64,6 +67,7 @@
   padding: 2px 2px 2px 2px;
   border-radius: 20px;
 }
+
 .rubyFilterWrappedDiv {
   width: 100%;
   height: 100%;
@@ -75,6 +79,7 @@
   font-size: 17px;
   border-radius: 20px;
 }
+
 .rubyFilterWrappedDiv:hover {
   cursor: pointer;
   background-image: linear-gradient(to right, #f606f9, #3ebadf);
@@ -90,6 +95,7 @@
   border-radius: 20px;
   margin-right: 20px;
 }
+
 .emeraldFilterWrappedDiv {
   width: 100%;
   height: 100%;
@@ -101,6 +107,7 @@
   font-size: 17px;
   border-radius: 20px;
 }
+
 .emeraldFilterWrappedDiv:hover {
   cursor: pointer;
   background-image: linear-gradient(to right, #f606f9, #3ebadf);
@@ -122,6 +129,7 @@
   padding: 2px 2px 2px 2px;
   border-radius: 20px;
 }
+
 .networkFilterTitleWrappedDiv {
   width: 100%;
   height: 100%;
@@ -133,6 +141,7 @@
   font-size: 17px;
   border-radius: 20px;
 }
+
 .networkFilterTitleWrappedDiv:hover {
   cursor: pointer;
   background-image: linear-gradient(to right, #f606f9, #3ebadf);
@@ -143,6 +152,7 @@
   z-index: 2;
   margin-right: 0;
 }
+
 .categoryTitleDiv {
   width: 150px;
   min-width: 150px;
@@ -151,6 +161,7 @@
   padding: 2px 2px 2px 2px;
   border-radius: 20px;
 }
+
 .categoryFilterWrappedDiv {
   width: 100%;
   height: 100%;
@@ -162,6 +173,7 @@
   font-size: 17px;
   border-radius: 20px;
 }
+
 .categoryFilterWrappedDiv:hover {
   cursor: pointer;
   background-image: linear-gradient(to right, #f606f9, #3ebadf);
@@ -228,9 +240,11 @@
   display: flex;
   justify-content: center;
 }
+
 .detailTitle {
   color: white;
 }
+
 .detailContent {
   color: #3fff00;
 }
@@ -238,19 +252,23 @@
 .logoImgDlg {
   width: 50px;
 }
+
 .modalAreaDiv {
   display: flex;
   justify-content: center;
 }
+
 .titleAreaDiv {
   text-align: center;
 }
+
 .wlImgDiv:hover {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* .wlImgDiv img{
     width: 30px;
 } */
@@ -276,6 +294,7 @@
   display: flex;
   align-items: center;
 }
+
 /* Category Filter */
 .categoryBatchDiv {
   background-color: transparent;
@@ -293,9 +312,9 @@
   background-color: #290825;
   text-align: center;
 }
+
 .todayListedDiv:hover {
   cursor: pointer;
-  font-size: 20px;
 }
 
 .todayTopVoteDiv {
@@ -305,9 +324,9 @@
   margin-right: 20px;
   background-color: #290825;
 }
+
 .todayTopVoteDiv:hover {
   cursor: pointer;
-  font-weight: bold;
 }
 
 .topVoteDiv {
@@ -317,20 +336,22 @@
   margin-right: 20px;
   background-color: #290825;
 }
+
 .topVoteDiv:hover {
   cursor: pointer;
-  font-weight: bold;
 }
-.presaleDiv:hover {
-  cursor: pointer;
-  font-weight: bold;
-}
+
+
 .presaleDiv {
   font-size: 17px;
   color: white;
   border-bottom: #3ebadf 1px solid;
   margin-right: 20px;
   background-color: #290825;
+}
+
+.presaleDiv:hover {
+  cursor: pointer;
 }
 
 /* Network Filter */
@@ -341,22 +362,26 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
 .ethDiv {
   font-size: 20px;
   color: white;
   border-bottom: #3ebadf 1px solid;
   margin-right: 20px;
 }
+
 .bscDiv {
   font-size: 20px;
   color: white;
   border-bottom: #3ebadf 1px solid;
 }
+
 .ethDiv:hover {
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
 }
+
 .bscDiv:hover {
   font-size: 25px;
   font-weight: bold;
@@ -371,6 +396,8 @@
   align-items: center;
   color: white;
   font-size: 17px;
+  /* padding: 0.5rem; */
+  z-index: 50;
 }
 
 .subFilterETH {
@@ -379,20 +406,22 @@
   text-align: center;
   border-bottom: 1px solid #3ebadf;
 }
+
 .subFilterBSC {
   background-color: #290825;
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #3ebadf;
 }
+
 .subFilterETH:hover {
-  font-size: 20px;
   cursor: pointer;
 }
+
 .subFilterBSC:hover {
-  font-size: 20px;
   cursor: pointer;
 }
+
 @media only screen and (max-width: 1600px) {
   .filterDiv {
     overflow-x: scroll;
@@ -401,9 +430,11 @@
     font-size: 15px;
     scrollbar-width: thin;
   }
+
   .filterOptionDiv {
     overflow-x: scroll;
   }
+
   .voteBtn {
     font-size: 12px;
   }
@@ -436,12 +467,15 @@
   .diamondFilterDiv {
     height: 40px;
   }
+
   .diamondFilterWrappedDiv img {
     width: 25px;
   }
+
   .rubyFilterDiv {
     height: 40px;
   }
+
   .rubyFilterWrappedDiv img {
     width: 25px;
   }
@@ -449,18 +483,23 @@
   .emeraldFilterDiv {
     height: 40px;
   }
+
   .networkTitleDiv {
     height: 40px;
   }
+
   .categoryTitleDiv {
     height: 40px;
   }
+
   .emerald.FilterWrappedDiv img {
     width: 25px;
   }
+
   .categoryFilterDiv {
     height: 40px;
   }
+
   .networkFilterDiv {
     height: 40px;
   }
