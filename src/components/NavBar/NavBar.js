@@ -182,7 +182,7 @@ export const NavBar = () => {
       </div>
 
       <div className="btnArea">
-        <button id="cryptocurrenciesBtn">Cryptocurrencies</button>
+        <button id="cryptocurrenciesBtn" onClick={() => navigate('/')}>Cryptocurrencies</button>
         <select
           id="selectTools"
           className="selectTools"
